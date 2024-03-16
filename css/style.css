@@ -1,0 +1,33 @@
+body {
+  font-family: "Segoe UI light", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content {
+  width: 80%;
+  bottom: 40px;
+  left: 10%;
+}
+.lightBoxContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .6);
+}
+.lightBoxItem {
+  width: 50%;
+  height: 500px;
+  background-image: url("../images/source6.png");
+  background-size: 100% 100%;
+  background-position: center center;
+
+}
+.lightBoxItem i {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+
+
